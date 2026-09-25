@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.cache/
+.azure/
+resultados/
+*.egg-info/
+.DS_Store
+._*
+*.pem
+*.key
+*.log

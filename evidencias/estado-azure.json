@@ -1,0 +1,22 @@
+{
+  "fecha_utc": "2026-09-25T00:35:37.490243+00:00",
+  "suscripcion_tipo": "Azure for Students",
+  "suscripcion_estado": "Enabled",
+  "recursos_cognitivos_existentes_al_consultar": 0,
+  "region_verificada": "northcentralus",
+  "region_permitida_por_politica": true,
+  "modelo_analisis": "gpt-5-mini",
+  "version_catalogo": "2025-08-07",
+  "sku_verificado": "GlobalStandard",
+  "cuota_limite": 500,
+  "cuota_usada": 0,
+  "unidad_cuota": "Unidades de capacidad del servicio; no son dólares ni crédito disponible",
+  "registro_proveedor_solicitado": true,
+  "recurso_practica_creado": false,
+  "despliegue_practica_creado": false,
+  "analisis_azure_ejecutado": false,
+  "generacion_azure_ejecutada": false,
+  "portal_chat_playground_ejecutado": false,
+  "estado": "preparacion_y_consultas_verificadas; inferencia Azure y conversación del portal pendientes",
+  "fuente": "Consultas de Azure CLI; se omiten identificadores de cuenta, suscripción, tenant y credenciales."
+}

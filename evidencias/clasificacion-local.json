@@ -1,0 +1,176 @@
+{
+  "estado": "ejecutado",
+  "fecha_utc": "2026-09-25T00:33:18.364845+00:00",
+  "motor": "TorchVision / CPU",
+  "modelo": "MobileNetV2",
+  "pesos": "IMAGENET1K_V2",
+  "pesos_url": "https://download.pytorch.org/models/mobilenet_v2-7ebf99e0.pth",
+  "pesos_sha256": "7ebf99e03e254b273379b23edca7ec0da9f48273b23a332b93c1c99d49e86e8f",
+  "python": "3.11.16",
+  "torch": "2.8.0",
+  "torchvision": "0.23.0",
+  "preprocesamiento": "ImageClassification(\n    crop_size=[224]\n    resize_size=[232]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "alcance": "Clasificación local; no es ejecución de Chat Playground ni de Azure.",
+  "resultados": [
+    {
+      "imagen": "image_01.png",
+      "sha256": "9bdedee9a7714f3defa479169dc8706e6f351ea07b65e6815823b80548b04d4a",
+      "dimensiones_ancho_alto": [
+        1024,
+        1024
+      ],
+      "latencia_ms": 31.877,
+      "suma_probabilidades_1000_clases": 1.0,
+      "top5": [
+        {
+          "clase": "desktop computer",
+          "puntuacion": 0.49710386991500854
+        },
+        {
+          "clase": "screen",
+          "puntuacion": 0.07001161575317383
+        },
+        {
+          "clase": "monitor",
+          "puntuacion": 0.04978805035352707
+        },
+        {
+          "clase": "mouse",
+          "puntuacion": 0.019730279222130775
+        },
+        {
+          "clase": "computer keyboard",
+          "puntuacion": 0.011886849999427795
+        }
+      ]
+    },
+    {
+      "imagen": "image_02.png",
+      "sha256": "25ed445d60eb03ce64d5c4217ac3e16588f3ade6f1d67d0b9b4362a835a88cf4",
+      "dimensiones_ancho_alto": [
+        1024,
+        1024
+      ],
+      "latencia_ms": 19.05,
+      "suma_probabilidades_1000_clases": 0.9999998807907104,
+      "top5": [
+        {
+          "clase": "mouse",
+          "puntuacion": 0.04297831654548645
+        },
+        {
+          "clase": "whistle",
+          "puntuacion": 0.023929359391331673
+        },
+        {
+          "clase": "printer",
+          "puntuacion": 0.02322641760110855
+        },
+        {
+          "clase": "modem",
+          "puntuacion": 0.021768996492028236
+        },
+        {
+          "clase": "switch",
+          "puntuacion": 0.020460721105337143
+        }
+      ]
+    },
+    {
+      "imagen": "image_03.png",
+      "sha256": "78baf23a3a4429f0b7d8f4b8c9a2c5e5ebdb318f9cdd84d1886400ea016996a7",
+      "dimensiones_ancho_alto": [
+        1024,
+        1024
+      ],
+      "latencia_ms": 19.627,
+      "suma_probabilidades_1000_clases": 1.0000001192092896,
+      "top5": [
+        {
+          "clase": "modem",
+          "puntuacion": 0.14142581820487976
+        },
+        {
+          "clase": "radio",
+          "puntuacion": 0.04649600014090538
+        },
+        {
+          "clase": "projector",
+          "puntuacion": 0.040210239589214325
+        },
+        {
+          "clase": "scale",
+          "puntuacion": 0.0321454182267189
+        },
+        {
+          "clase": "CD player",
+          "puntuacion": 0.02829374372959137
+        }
+      ]
+    },
+    {
+      "imagen": "image_04.png",
+      "sha256": "0f3ed074bcac517841039c38dd5082f0857e994effaa5792ff179a135037a269",
+      "dimensiones_ancho_alto": [
+        1024,
+        682
+      ],
+      "latencia_ms": 19.897,
+      "suma_probabilidades_1000_clases": 0.9999998807907104,
+      "top5": [
+        {
+          "clase": "hard disc",
+          "puntuacion": 0.9673749208450317
+        },
+        {
+          "clase": "CD player",
+          "puntuacion": 0.002131490968167782
+        },
+        {
+          "clase": "tape player",
+          "puntuacion": 0.0017495667561888695
+        },
+        {
+          "clase": "cassette",
+          "puntuacion": 0.0010205102153122425
+        },
+        {
+          "clase": "radio",
+          "puntuacion": 0.0005283249192871153
+        }
+      ]
+    },
+    {
+      "imagen": "image_05.png",
+      "sha256": "84b49f10747711d73e283aae8907f6288dbc581a3f500cdb747400349e619377",
+      "dimensiones_ancho_alto": [
+        1024,
+        1024
+      ],
+      "latencia_ms": 19.789,
+      "suma_probabilidades_1000_clases": 1.000000238418579,
+      "top5": [
+        {
+          "clase": "notebook",
+          "puntuacion": 0.24053728580474854
+        },
+        {
+          "clase": "laptop",
+          "puntuacion": 0.09414120018482208
+        },
+        {
+          "clase": "space bar",
+          "puntuacion": 0.03517628461122513
+        },
+        {
+          "clase": "desktop computer",
+          "puntuacion": 0.03450983017683029
+        },
+        {
+          "clase": "computer keyboard",
+          "puntuacion": 0.017770124599337578
+        }
+      ]
+    }
+  ]
+}

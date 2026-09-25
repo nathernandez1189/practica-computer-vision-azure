@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "practica-computer-vision-azure"
+version = "1.0.0"
+description = "Práctica académica de visión por computadora: MobileNetV2 y Azure OpenAI"
+requires-python = ">=3.11"
+authors = [
+  {name = "Miguel Angel Diuza"},
+  {name = "Juan Ospina Tenorio"},
+  {name = "Natalia Hernandez Piedrahita"},
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

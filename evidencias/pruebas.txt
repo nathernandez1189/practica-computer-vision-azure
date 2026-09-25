@@ -1,0 +1,19 @@
+test_endpoint_normalization (test_vision.AzureTests.test_endpoint_normalization) ... ok
+test_extracts_only_output_text (test_vision.AzureTests.test_extracts_only_output_text) ... ok
+test_incomplete_or_empty_response_is_not_success (test_vision.AzureTests.test_incomplete_or_empty_response_is_not_success) ... ok
+test_missing_key (test_vision.AzureTests.test_missing_key) ... ok
+test_payload_contains_actual_image (test_vision.AzureTests.test_payload_contains_actual_image) ... ok
+test_preserves_partial_results_without_claiming_completion (test_vision.AzureTests.test_preserves_partial_results_without_claiming_completion) ... ok
+test_rejects_disguised_non_image (test_vision.AzureTests.test_rejects_disguised_non_image) ... ok
+test_rejects_unsafe_endpoints_before_sending_key (test_vision.AzureTests.test_rejects_unsafe_endpoints_before_sending_key) ... ok
+test_empty_folder_is_error (test_vision.DataTests.test_empty_folder_is_error) ... ok
+test_local_evidence_if_present (test_vision.DataTests.test_local_evidence_if_present) ... ok
+test_official_images_match_manifest (test_vision.DataTests.test_official_images_match_manifest) ... ok
+test_asymmetric_kernel_is_convolution_not_correlation (test_vision.FilterTests.test_asymmetric_kernel_is_convolution_not_correlation) ... ok
+test_invalid_matrices (test_vision.FilterTests.test_invalid_matrices) ... ok
+test_microsoft_example_preserves_signed_values (test_vision.FilterTests.test_microsoft_example_preserves_signed_values) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.014s
+
+OK
